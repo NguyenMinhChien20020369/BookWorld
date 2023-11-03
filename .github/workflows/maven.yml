@@ -39,7 +39,7 @@ jobs:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
       run: 
             heroku plugins:install java
-            heroku deploy:jar target/*.jar --app book-world
+            heroku open --app book-world
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
