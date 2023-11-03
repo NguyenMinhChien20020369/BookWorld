@@ -1,1 +1,2 @@
-web:node src/main/java/com/chien/bookWorld/BookWorldApplication.java
+# web:node src/main/java/com/chien/bookWorld/BookWorldApplication.java
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.chien.bookWorld
