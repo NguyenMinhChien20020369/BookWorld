@@ -6,7 +6,7 @@ on:
       - '!docs/**'
       - '**.js'
     branches:
-      - 'main'
+      - 'master'
       - 'release/**'
       - '!dev/**'
   pull_request:
