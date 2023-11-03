@@ -31,8 +31,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: 
-            mvn clean install
             mvn clean package -DskipTests
+            mvn clean install
 
     - name: Heroku Deploy
       env: 
